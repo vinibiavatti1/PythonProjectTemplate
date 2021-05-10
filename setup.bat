@@ -1,15 +1,15 @@
 @echo off
 
 REM Create venv
-if not exist .\venv\Scripts\python.exe (
+if not exist .\.venv\Scripts\python.exe (
     echo Installing environment...
-    python -m venv venv
-    echo Virtual environment installed in /venv folder
+    python -m venv .venv
+    echo Virtual environment installed in /.venv folder
 )
 
 REM Activate
 echo Activating virtual environment...
-cd .\venv\Scripts
+cd .\.venv\Scripts
 call activate.bat
 echo Environment activated
 
