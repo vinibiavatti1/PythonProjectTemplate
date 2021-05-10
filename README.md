@@ -6,5 +6,5 @@
 
 ---
 
-<p align="center">A simple project template to be used as base for your next Python project!</p>
+<p align="center">A simple project template to be used as base for your next Python 3 project!</p>
 </p>
