@@ -1,7 +1,4 @@
 {
-    // Virtual env
-    "python.pythonPath": "${workspaceFolder}/.venv",
-
     // Python linter
     "python.linting.pycodestyleEnabled": true,
     "python.linting.enabled": true,
