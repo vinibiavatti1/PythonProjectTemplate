@@ -14,4 +14,5 @@
 - Clone this project to your git folder;
 - Access the project and run `run_setup.bat` to create the virtual environment, activate the environment and install the dependencies;
 - Open [VSCode](https://code.visualstudio.com/) by executing `run_code.bat` file and select the default Python Interpreter;
+- Install the recommended extensions showed by the hint;
 - Start coding Python!
