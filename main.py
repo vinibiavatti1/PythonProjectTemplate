@@ -1,8 +1,15 @@
-# Main
+"""
+Application entry-point file.
+"""
+
+
 def main():
+    """
+    Application main method.
+    """
     pass
 
 
-# Init
+# Initialization
 if __name__ == '__main__':
     main()
