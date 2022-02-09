@@ -1,11 +1,11 @@
 """
-Application entry-point file.
+App entry-point module.
 """
 
 
-def main():
+def main() -> None:
     """
-    Application main method.
+    App main method.
     """
     pass
 
