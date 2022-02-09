@@ -1,9 +1,10 @@
 """
 App entry-point module.
 """
+import sys
 
 
-def main() -> None:
+def main(argv: list[str]) -> None:
     """
     App main method.
     """
@@ -12,4 +13,4 @@ def main() -> None:
 
 # Initialization
 if __name__ == '__main__':
-    main()
+    main(sys.argv)
