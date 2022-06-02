@@ -1,7 +1,9 @@
 # Variables
 $envPath = ".\.venv"
 $activateFilePath = "$envPath\Scripts\Activate.ps1"
-$requirementsFilePath = ".\requirements.txt"
+
+# Back
+Set-Location ".."
 
 # Verify Environment
 if (-not(Test-Path -Path $envPath -PathType Container)) {
@@ -15,8 +17,8 @@ Write-Host "Activating virtual environment..."
 Invoke-Expression $activateFilePath
 Write-Host "Environment activated!"
 
-# Update requirements file
-Write-Host "Updating requirements file..."
-Invoke-Expression "python -m pip freeze | Out-File -FilePath $requirementsFilePath"
-Write-Host "Requirements updated successfully!"
+# Run application
+Write-Host "Running application..."
+Invoke-Expression "python main.py"
+Set-Location ".\scripts"
 Read-Host -Prompt "Press Enter to exit"
