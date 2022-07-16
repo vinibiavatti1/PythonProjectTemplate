@@ -1,0 +1,32 @@
+{
+    "Docstring Comment": {
+        "scope": "python",
+        "prefix": "\"\"",
+        "body": [
+            "\"\"\"",
+            "${1:comment}",
+            "\"\"\""
+        ],
+        "description": "Create a docstring comment"
+    },
+    "Top Level Section Comment": {
+        "scope": "python",
+        "prefix": "##",
+        "body": [
+            "###############################################################################",
+            "# ${1:comment}",
+            "###############################################################################"
+        ],
+        "description": "Create a top-level section comment"
+    },
+    "Second Level Section Comment": {
+        "scope": "python",
+        "prefix": "###",
+        "body": [
+            "###########################################################################",
+            "# ${1:comment}",
+            "###########################################################################"
+        ],
+        "description": "Create a second-level section comment"
+    }
+}
