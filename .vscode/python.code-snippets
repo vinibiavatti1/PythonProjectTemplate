@@ -9,7 +9,7 @@
         ],
         "description": "Create a docstring comment"
     },
-    "Top Level Section Comment": {
+    "Section Comment": {
         "scope": "python",
         "prefix": "##",
         "body": [
@@ -19,7 +19,7 @@
         ],
         "description": "Create a top-level section comment"
     },
-    "Second Level Section Comment": {
+    "Sub Section Comment": {
         "scope": "python",
         "prefix": "###",
         "body": [
