@@ -1,14 +1,4 @@
 {
-    "Docstring Comment": {
-        "scope": "python",
-        "prefix": "\"\"",
-        "body": [
-            "\"\"\"",
-            "${1:comment}",
-            "\"\"\""
-        ],
-        "description": "Create a docstring comment"
-    },
     "Section Comment": {
         "scope": "python",
         "prefix": "##",
