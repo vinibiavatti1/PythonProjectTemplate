@@ -2,6 +2,5 @@
     "recommendations": [
         "ms-python.python",
         "editorconfig.editorconfig",
-        "ms-vscode.powershell",
     ]
 }
