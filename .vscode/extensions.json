@@ -2,5 +2,6 @@
     "recommendations": [
         "ms-python.python",
         "editorconfig.editorconfig",
+        "bungcip.better-toml"
     ]
 }

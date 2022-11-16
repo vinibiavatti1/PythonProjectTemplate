@@ -5,11 +5,13 @@
 
     // Python linter
     "python.linting.enabled": true,
-    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
     "python.linting.mypyEnabled": true,
+    "python.linting.pylamaEnabled": true,
 
     // Editor
     "editor.rulers": [79],
+    "editor.formatOnSave": true,
 
     // Hide files
     "files.exclude": {
