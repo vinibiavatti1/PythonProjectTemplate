@@ -6,7 +6,6 @@
     // Python linter
     "python.linting.enabled": true,
     "python.linting.pycodestyleEnabled": true,
-    "python.linting.pydocstyleEnabled": true,
     "python.linting.mypyEnabled": true,
 
     // Editor
