@@ -8,3 +8,4 @@ pylama==8.4.1
 snowballstemmer==2.2.0
 tomli==2.0.1
 typing_extensions==4.4.0
+toml==0.10.2
