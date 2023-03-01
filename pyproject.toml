@@ -5,7 +5,7 @@ linters = "pycodestyle"
 max_line_length = 79
 count = true
 statistics = true
-ignore = ""
+ignore = []
 
 [tool.mypy]
 strict = true
