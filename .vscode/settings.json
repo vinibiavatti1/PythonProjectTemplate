@@ -11,7 +11,7 @@
 
     // Editor
     "editor.rulers": [79],
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
 
     // Hide files
     "files.exclude": {
